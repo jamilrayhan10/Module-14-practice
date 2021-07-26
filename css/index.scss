@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.my-slide-bg {
+  background-color: #fceae8;
+
+  .slider-img {
+    img {
+      width: 100%;
+      height: 90%;
+      padding: 20px 0;
+    }
+  }
+}
+.slider-area {
+  margin: 100px 0;
+}
+.cetagori {
+  img {
+    width: 100px;
+  }
+}
+
+.subscribe-full-area {
+  background-color: #fceae8;
+
+  input {
+    width: 350px;
+    max-width: 100%;
+    :focus {
+      border: none;
+      outline: none;
+    }
+  }
+}
